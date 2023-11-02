@@ -1,4 +1,4 @@
-import os, argparse
+import os, argparse, asyncio
 from fonction.app import *
 from colorama import *
 
@@ -21,4 +21,4 @@ if __name__ == "__main__":
     os.system(f"title LookTools user {os.getlogin()}")  
 
     
-    
+    asyncio.run(app(username))
