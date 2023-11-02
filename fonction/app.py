@@ -1,6 +1,19 @@
-from var import *
+import time
+from fonction.var import *
+from fonction.utils import *
+from fonction.SocialsCheck import *
 from colorama import *
 
-def app(username : str) :
+async def app(username : str) :
+    clear()
     app_instence = AppInfo()
     print(Const.HEADER)
+    
+    print(Fore.WHITE)
+    print(f"username : {username}")
+    print(Fore.GREEN + "lookup start in 10 seconde"+ Fore.WHITE)
+    time.sleep(10)
+
+
+    SocialsInstence = Socials(username)
+    SocialsResult = await SocialsInstence.main()
