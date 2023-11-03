@@ -15,13 +15,14 @@ if __name__ == "__main__":
 
     )
     parser.add_argument('-u', dest= "username", help='user peusdo you want to found', required=True)
-    parser.add_argument('-e', dest= "email", help='user peusdo you want to found', required=False)
-    parser.add_argument('-n', dest= "number", help='user peusdo you want to found', required=False)
-    
-    parser.add_argument('-v',  action='version', version=f'%(prog)s {__version__}')
+    parser.add_argument('-e', dest= "email", help='email you want to found', required=False)
+    parser.add_argument('-n', dest= "number", help='number peusdo you want to found', required=False)
+    parser.add_argument('-w', dest= "webhook", help='webhook discord for output and logs', required=False)
+    parser.add_argument('-v', dest = "version", action='version', version=f'%(prog)s {__version__}')
     args = parser.parse_args()
     username = args.username
     email = args.email
+    webhook = args.webhook
 
     os.system(f"title LookTools user {os.getlogin()}")  
 
