@@ -4,11 +4,11 @@
 
 LOOKS is a python project that aims to get and store the availibility status of a username on social medias such as :
 
-| website | Link                        |
-| :------ | :-------------------------- |
-| Twitter |https://twitter.com          |
-|Github   |https://github.com/          |
-|Youtube  |https://www.youtube.com/@    |
+| website | Link                              |
+| :------ | :---------------------------------|
+| Twitter |https://twitter.com/exploitlover   |
+|Github   |https://github.com/loveonyou       |
+|Youtube  |https://www.youtube.com/@          |
 
 
 ## Features
