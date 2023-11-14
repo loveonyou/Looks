@@ -14,8 +14,6 @@ async def app(username : str) :
     print(f"username : {username}")
     print(Fore.GREEN + "lookup start in 10 seconde"+ Fore.WHITE)
     time.sleep(10)
-
-    print("\n\n")
-
+    print("\n")
     SocialsInstence = Socials(username)
     SocialsResult = await SocialsInstence.main()

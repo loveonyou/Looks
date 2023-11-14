@@ -1,10 +1,10 @@
-import os, argparse, asyncio
+import os, argparse, asyncio, sys
 from fonction.app import *
 from colorama import *
 
 
 __author__ = "adn"
-__version__ = "0.3"
+__version__ = "0.4"
 
 if __name__ == "__main__":
     init()
@@ -23,8 +23,5 @@ if __name__ == "__main__":
     username = args.username
     email = args.email
     webhook = args.webhook
-
     os.system(f"title LookTools user {os.getlogin()}")  
-
-    
     asyncio.run(app(username))
