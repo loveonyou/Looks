@@ -4,7 +4,7 @@ from colorama import *
 
 
 __author__ = "adn"
-__version__ = "0.4"
+__version__ = "0.4-beta"
 
 if __name__ == "__main__":
     init()
