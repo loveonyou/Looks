@@ -1,4 +1,4 @@
-import os, datetime
+import os, datetime, json
 from colorama import *
 
 
@@ -25,14 +25,22 @@ class Const:
     discord    : {DISCORD}    
     telegram   : {TELEGRAM}
 """+ Fore.WHITE
-class AppInfo() :
+class AppInfo() : # Create App Class 
 
-    def __init__(self):
+    def __init__(self, webhook : str or None) :
         try :
             self.os = os.name
             self.run_time = datetime.datetime.now()
             self.run_end = None
-            self.webhook = None
+            if webhook is None :
+                with open("config.json", "r") as f: 
+                    file = json.load(f)
+                if file["webhook"] == "" :
+                    self.webhook = None
+                else :
+                    self.webhook = file["webhook"]
+            else : 
+                self.webhook = webhook
             self.logs = None
             self.output = "-lookup.txt"
             print(Fore.GREEN + "[APP ON]" + Fore.WHITE)
