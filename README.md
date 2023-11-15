@@ -18,7 +18,7 @@ LOOKS is a python project that aims to get and store the availibility status of 
 - Allow you to use a username, email or a number for your query
 - Allows you to connect a webhook to log or connect to discord 
 
-## Installation
+## Installation Module
 
 To install the required dependencies, run the following command:
 
