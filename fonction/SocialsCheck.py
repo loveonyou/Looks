@@ -9,7 +9,7 @@ class ReponseModel(BaseModel): # build model of request reponse
     url : str
     username : str
     code : int 
-    title : str or None
+    title : str | None
 
 
 class Socials():
