@@ -56,6 +56,12 @@ Linux :
 ```bash
   tar -cvf looks-v<xx>-stable.tar looks-vxx-stable
 ```
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/loveonyou/Looks.svg)](https://starchart.cc/loveonyou/Looks)
+
+
     
 ## Authors
 
