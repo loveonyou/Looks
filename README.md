@@ -7,8 +7,9 @@ LOOKS is a python project that aims to get and store the availibility status of 
 | website | Link                              |
 | :------ | :---------------------------------|
 | Twitter |https://twitter.com/exploitlover   |
-|Github   |https://github.com/loveonyou       |
-|Youtube  |https://www.youtube.com/@          |
+| Github  |https://github.com/loveonyou       |
+| Youtube |https://www.youtube.com/@          |
+| Telgram |https://t.me/looksproject          |
 
 
 ## Features
